@@ -1,0 +1,34 @@
+version: '2'
+services:
+   php:
+      image: usepico/php:7.3
+      container_name: john-deere
+      hostname: john-deere
+      restart: no
+      ports:
+         - "9088:80"
+         - "9022:22"
+      volumes:
+         - source:/var/www
+      networks:
+         - jd
+   mysql-jd:
+      image: mysql:5.7
+      container_name: mysql-jd
+      hostname: mysql-jd
+      restart: no
+      environment:
+         MYSQL_ROOT_PASSWORD: 1234
+      networks:
+         - jd
+      ports:
+         - "9306:3306"
+      volumes:
+         - "mysql-jd:/var/lib/mysql"
+
+volumes:
+   source:
+   mysql-jd:
+
+networks:
+   jd:

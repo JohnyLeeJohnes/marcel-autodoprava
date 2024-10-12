@@ -1,0 +1,29 @@
+.hiddenMobile {
+    @media screen and (max-width: 73em) {
+        display: none !important;
+    }
+}
+
+.hiddenDesktop {
+    @media screen and (min-width: 73em) {
+        display: none !important;
+    }
+}
+
+.navigationAnchor {
+    color: black;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.navigationButton {
+    color: black;
+    width: 100%;
+    margin-bottom: 5px;
+    background: var(--mantine-color-gray-2);
+
+    &:hover {
+        background: var(--mantine-color-gray-5);
+    }
+}
+

@@ -1,0 +1,588 @@
+{
+    "marshsat.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            }
+        ]
+    },
+    "www.marshsat.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            },
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "marshsat2.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            },
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            }
+        ]
+    },
+    "uat.marshsat.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "www.uat.marshsat.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "uat.marshsat2.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "www.uat.marshsat2.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "sme.marshsat2.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "dev.marshsat2.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "online-policies.com": {
+        "package": "a6d361ff-f1c1-4b49-a617-896e381543cb",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            }
+        ]
+    },
+    "www.online-policies.com": {
+        "package": "a6d361ff-f1c1-4b49-a617-896e381543cb",
+        "behavior": "implied",
+        "privacy_link": "",
+        "cookie_link": "",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            }
+        ]
+    },
+    "uat.online-policies.com": {
+        "package": "a6d361ff-f1c1-4b49-a617-896e381543cb",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "",
+        "cookies": []
+    },
+    "www.uat.online-policies.com": {
+        "package": "a6d361ff-f1c1-4b49-a617-896e381543cb",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "",
+        "cookies": []
+    },
+    "sme.online-policies.emea.mrshmc.com": {
+        "package": "a6d361ff-f1c1-4b49-a617-896e381543cb",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "",
+        "cookies": []
+    },
+    "marshcontractors.ie": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "",
+        "cookie_link": "",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            }
+        ]
+    },
+    "www.marshcontractors.ie": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "",
+        "cookie_link": "",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            }
+        ]
+    },
+    "dev.marshconnect.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "sme.marshconnect.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "uat.marshconnect.eu": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "www.uat.marshconnect.eu": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "uat.marshconnect.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "marshconnect.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            },
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "marshconnect.eu": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            },
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "www.marshconnect.eu": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797",
+        "behavior": "implied",
+        "privacy_link": "https://www.marsh.com/privacy-policies.html",
+        "cookie_link": "https://www.marsh.com/uk/cookie-notice.html",
+        "cookies": [
+            {
+                "name": "dt",
+                "desc": "Dynatrace",
+                "type": 3
+            },
+            {
+                "name": "PHPWord",
+                "desc": "phpword",
+                "type": 1
+            },
+            {
+                "name": "dojox",
+                "desc": "dojox",
+                "type": 1
+            },
+            {
+                "name": "gmaps",
+                "desc": "Google Maps",
+                "type": 2
+            },
+            {
+                "name": "google",
+                "desc": "Google",
+                "type": 2
+            }
+        ]
+    },
+    "marshsat.eu": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    },
+    "www.marshsat.eu": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    },
+    "marshsat.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    },
+    "uat.marshsat.eu": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    },
+    "www.uat.marshsat.eu": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    },
+    "uat.marshsat.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    },
+    "www.uat.marshsat.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    },
+    "sme.marshsat.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    },
+    "dev.marshsat.emea.mrshmc.com": {
+        "package": "ccce59a3-d247-48bb-9d6a-fbeb0ea06797"
+    }
+}

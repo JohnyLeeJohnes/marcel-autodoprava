@@ -1,0 +1,47 @@
+.root {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    * {
+        text-align: center;
+    }
+}
+
+.inner {
+    position: relative;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    @media (max-width: 48em) {
+        padding-top: 120px;
+    }
+}
+
+.title {
+    font-family: "Greycliff CF", var(--mantine-font-family), serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    @media (max-width: 48em) {
+        font-size: 32px;
+    }
+}
+
+.description {
+    max-width: 540px;
+    margin: var(--mantine-spacing-xl) auto;
+}
+
+.marshButton {
+    background-color: #002C77 !important;
+
+    &:hover {
+        background-color: #176BFF !important;
+    }
+}
