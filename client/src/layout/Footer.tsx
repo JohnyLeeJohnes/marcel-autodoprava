@@ -25,7 +25,7 @@ export default function Footer() {
             >
                 <Image src={truck} h={50}/>
                 <Text ta={"center"} mx={"50px"} size={"lg"} c={"dimmed"}>
-                    Created by Jan Pavlát&nbsp;&copy;&nbsp;{new Date().getFullYear()}&nbsp;
+                    Created by Denisa Černošková&nbsp;&copy;&nbsp;{new Date().getFullYear()}&nbsp;
                 </Text>
                 <ActionIcon
                     size={"35px"}
