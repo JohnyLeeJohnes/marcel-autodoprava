@@ -1,19 +1,24 @@
-import logo                                               from "@/assets/logo.png";
-import {ContactUsModal}                                   from "@/components/core/ContactUsModal";
-import {HeaderDrawer}                                     from "@/layout/HeaderDrawer";
-import {useTranslator}                                    from "@/lib/misc/translator";
-import {Button, Divider, Group, Image, Paper, SimpleGrid} from "@mantine/core";
-import {useDisclosure, useScrollIntoView}                 from "@mantine/hooks";
-import {useNavigate}                                      from "react-router-dom";
-import classes                                            from "../style/Header.module.css";
-import React                                              from "react";
+import logo             from "@/assets/logo.png";
+import {ContactUsModal} from "@/components/core/ContactUsModal";
+import {useScrollStore} from "@/components/store/useScrollStore";
+import {HeaderDrawer}   from "@/layout/HeaderDrawer";
+import {
+    Button,
+    Divider,
+    Group,
+    Image,
+    Paper,
+    SimpleGrid
+}                       from "@mantine/core";
+import {useDisclosure}  from "@mantine/hooks";
 
+import {type FC} from "react";
+import classes   from "../style/Header.module.css";
 
-export function Header() {
-    const [opened, {open, close}]     = useDisclosure(false);
-    const navigate                    = useNavigate();
-    const {tr}                        = useTranslator();
-    const {scrollIntoView, targetRef} = useScrollIntoView();
+export const Header: FC = () => {
+    const [opened, {open, close}] = useDisclosure(false);
+    const priceListScrollFunction = useScrollStore((state) => state.priceListScrollFunction);
+    const contactScrollFunction = useScrollStore((state) => state.contactScrollFunction);
 
     return (
         <>
@@ -29,17 +34,23 @@ export function Header() {
                             O nás
                         </Button>
                         <Button
-                            onClick={() => {
-                                scrollIntoView({alignment: "center"})
-                            }}
                             variant="subtle"
                             size="md"
+                            onClick={() => {
+                                priceListScrollFunction({alignment: 'center'});
+                            }}
                         >
                             Ceník
                         </Button><Button variant="subtle" size="md">
                         Provozní doba
                     </Button>
-                        <Button variant="subtle" size="md">
+                        <Button
+                            variant="subtle"
+                            size="md"
+                            onClick={() => {
+                                contactScrollFunction({alignment: 'center'});
+                            }}
+                        >
                             Kontakt
                         </Button>
                     </Group>

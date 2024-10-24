@@ -1,8 +1,18 @@
-import {HeroText}                                            from "@/components/ui/Home/HeroText";
-import {AspectRatio, Container, Divider, Paper, Space, Text} from "@mantine/core";
-import React                                                 from "react";
+import Contact from "@/components/ui/Contact";
+import {HeroText} from "@/components/ui/Home/HeroText";
+import PriceList  from "@/components/ui/PriceList";
+import {
+    AspectRatio,
+    Container,
+    Divider,
+    Paper,
+    Space,
+    Text
+}                 from "@mantine/core";
 
-export default function Home() {
+import {type FC} from "react";
+
+export const Home: FC = () => {
     return (
         <Container py="md" size={1200}>
             <HeroText/>
@@ -22,11 +32,7 @@ export default function Home() {
                 </AspectRatio>
             </div>
             <Divider my="md"/>
-            <Paper p="xl">
-                <Text ref={} size="xl" c={"blue"}>
-                    Ceník
-                </Text>
-            </Paper>
+            <PriceList/>
             <Divider my="md"/>
             <Paper p="xl">
                 <Text size="xl" c={"blue"}>
@@ -34,11 +40,7 @@ export default function Home() {
                 </Text>
             </Paper>
             <Divider my="md"/>
-            <Paper p="xl">
-                <Text size="xl" c={"blue"}>
-                    Kontakt
-                </Text>
-            </Paper>
+            <Contact/>
             <Paper p="xl">
                 <Text>
                     Marcel Černošek
